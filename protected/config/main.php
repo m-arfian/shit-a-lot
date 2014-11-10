@@ -8,7 +8,7 @@ Yii::setPathOfAlias('chartjs', dirname(__FILE__).'/../extensions/yii-chartjs');
 return array(
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'Analisa Data Bidikmisi 2013 - 2014',
-    'theme' => 'dashgumfree',
+    'theme' => 'sbadmin2',
     'timeZone' => 'Asia/Jakarta',
     // preloading 'log' component
     'preload' => array('log', 'chartjs'),
@@ -25,6 +25,7 @@ return array(
             // If removed, Gii defaults to localhost only. Edit carefully to taste.
             'ipFilters' => array('127.0.0.1', '::1'),
         ),
+        'config'
     ),
     // application components
     'components' => array(
